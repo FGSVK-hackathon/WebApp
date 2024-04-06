@@ -1,0 +1,128 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #E3F2FD;
+}
+
+.flex {
+    width: 50%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: block  ;
+    align-items: flex-start;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.navbar a {
+    color: #000;    
+    padding-left: 10px;
+    font-size: large;
+    opacity: .6;
+}
+
+.navbar a:first-child {
+    color: #000;
+    padding-left: 20px;
+}
+
+.navbar a:hover {
+    opacity: 1;
+}
+
+.main {
+    width: 100%;
+    padding: 35px 40px;
+    border-radius: 20px;
+    background: #141414;
+    color: #B2B2B2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 1.19rem;
+    color: #B2B2B2;
+}
+
+input[type="text"] {
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #B2B2B2;
+    width: 100%;
+    max-width: 500px;
+    color: #000;
+    background-color: #fff;
+}
+
+button {
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E3F2FD;
+}
+
+.box {
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.box .rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 40px;
+    border: 4px solid #fff;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:after, a:before, a:default {
+    text-decoration: none;
+}
